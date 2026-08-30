@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "createdAt": "2026-08-30T17:47:12.169Z",
+    "instrument": "በገና",
+    "photo": "https://res.cloudinary.com/t3grr5z2/image/upload/v1788111661/finot-zema/students/lac2gbclmaczs3robttz.jpg",
+    "fullName": "wertyu",
+    "christianName": "sdfghjk",
+    "gender": "ወንድ",
+    "birthYear": "2000",
+    "birthMonth": "ነሐሴ",
+    "birthDay": "1",
+    "phoneNumber": "0922334455",
+    "sundaySchool": "ፍኖተ ሰላም",
+    "parishChurch": "ሰሚት መድኃኔዓለም ቤተክርስቲያን",
+    "serviceLevel": "ጀማሪ",
+    "subcity": "ለሚ ኩራ",
+    "woreda": "09",
+    "neighborhood": "አትሌቶች ሰፈር",
+    "houseNumber": "አዲስ",
+    "emergencyFullName": "አባት",
+    "emergencyPhone": "0903324489",
+    "emergencyAltPhone": "0911441642",
+    "emergencyAddress": "አዲስ አበባ"
+  }
+]

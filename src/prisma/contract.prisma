@@ -1,0 +1,40 @@
+// use prisma-next
+
+model Student {
+  id               Int               @id @default(autoincrement())
+  fullName         String
+  christianName    String
+  gender           String
+  birthYear        Int
+  birthMonth       String
+  birthDay         Int
+  phoneNumber      String
+  photoUrl         String
+  instrument       String
+  sundaySchool     String
+  parishChurch     String
+  serviceLevel     String
+  address          Address?
+  emergencyContact EmergencyContact?
+  createdAt        TimestamptzString @default(now())
+}
+
+model Address {
+  id               Int      @id @default(autoincrement())
+  studentId        Int      @unique
+  student          Student  @relation(fields: [studentId], references: [id])
+  subcity          String
+  woreda           String
+  neighborhood     String
+  houseNumber      String
+}
+
+model EmergencyContact {
+  id               Int      @id @default(autoincrement())
+  studentId        Int      @unique
+  student          Student  @relation(fields: [studentId], references: [id])
+  fullName         String
+  primaryPhone     String
+  secondaryPhone   String?
+  address          String
+}
